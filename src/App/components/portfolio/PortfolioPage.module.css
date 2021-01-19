@@ -1,0 +1,58 @@
+.portfolioPageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+}
+
+.portfolioTitle {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.portfolioIntro {
+    text-align: center;
+}
+
+.websiteElement {
+    padding: 40px 0 0 0;
+    transition: 0.5s;
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+
+    .websiteElement:hover {
+        opacity: 0.8;
+    }    
+
+.websiteImg {
+    width: 600px;
+    /*position: absolute;*/
+}
+
+.title {
+    display: block;
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 8px 8px 8px 8px;
+}
+
+.caption {
+    font-size: small;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.projectDesc {
+    
+}
+
+.sectionBreak {
+    width: 100%;
+
+}

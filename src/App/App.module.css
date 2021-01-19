@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.pageContainer {
+  position: relative;
+  min-height: 100vh;
+}
+
+.contentWrapper {
+  padding-bottom: 2.5rem
+}
