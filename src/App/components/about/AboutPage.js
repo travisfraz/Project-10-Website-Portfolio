@@ -30,6 +30,7 @@ export default function AboutPage() {
             </section>
             <section>
                 <p>
+                    Being someone who is tasked with solving problems
                     Backend Web Development checks a lot of boxes for me.  For one, I love how there is a never ending amount of novelity.
                      In a modern world of constant routine, I look forward to having new experiences, and problems that keep me engaged.
                      Secondly, Web Development, and most things computer related, have an oppurtunity to produce a HIGH degree of value.

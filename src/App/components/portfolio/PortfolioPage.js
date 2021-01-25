@@ -71,7 +71,25 @@ export default function PortfolioPage() {
                         <li>Deployment Tools: Heroku, Git</li>
                     </ul>
                 </div>
-            </div> 
+            </div>
+
+            <hr className={style.sectionBreak} />
+
+            <div className={style.websiteElement}>
+                <a href='https://repl.it/@TravisFrazier1/RideTheBus#main.py'>
+                    <div className={style.title}>Tada Meats</div>
+                    <img className={style.websiteImg} src={tadaMeats} alt='' />
+                </a>
+                <div className={style.projectDesc}>
+                    <div className={style.descTitle}>Key Skills Used/Learned</div>
+                    <ul>
+                        <li>Languages/Libraries: React, Material UI </li>
+                        <li>Database: PostgreSQL</li>
+                        <li>Development Tools: MVC Backend Model, MVP Project Development, Env variables, NPM, Git</li>
+                        <li>Deployment Tools: Heroku, Git</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     )
 }
