@@ -2,7 +2,7 @@ import React from 'react'
 import pencilAndPaper from '../../../images/pencil_and_paper.jpg'
 import etsyStore from '../../../images/etsy_store.jpg'
 import tadaMeats from '../../../images/tada-meats.PNG'
-
+import deckOfCards from '../../../images/deck_of_cards.jpg'
 
 import style from './PortfolioPage.module.css'
 
@@ -13,10 +13,31 @@ export default function PortfolioPage() {
             <section className={style.portfolioIntro}>
                 <p>
                     Below you will find some of the projects that I have created.
-                     Each project will list some of the key skills that I learned or used will developing.
-                     Projects are listed in order of completion.
+                     Each project will list some of the key skills that I learned or used while developing, and a short description of the projects purpose.
                 </p>
             </section>
+
+            <hr className={style.sectionBreak} />
+
+            <div className={style.websiteElement}>
+                <a href='https://tada-meats-test.herokuapp.com/'>
+                    <div className={style.title}>Tada Meats</div>
+                    <img className={style.websiteImg} src={tadaMeats} alt='' />
+                </a>
+                <div className={style.projectDesc}>
+                    <div className={style.descTitle}>Project Description</div>
+                    <p>This website was built for a local meat processor. They were in need of a website to showcase there business, allow for online retail sales, 
+                        and finalize custom processing orders.
+                    </p>
+                    <div className={style.descTitle}>Key Skills Used/Learned</div>
+                    <ul>
+                        <li>Languages/Libraries: React, Material UI </li>
+                        <li>Database: PostgreSQL</li>
+                        <li>Development Tools: MVC Backend Model, MVP Project Development, Env variables, NPM, Git</li>
+                        <li>Deployment Tools: Heroku, Git</li>
+                    </ul>
+                </div>
+            </div>
 
             <hr className={style.sectionBreak} />
 
@@ -25,7 +46,12 @@ export default function PortfolioPage() {
                     <div className={style.title}>Coding Journal</div>
                     <img className={style.websiteImg} src={pencilAndPaper} alt='' />
                 </a>
-                <div className={style.caption}>Image by flakeparadigm  via <a href='https://search.creativecommons.org/photos/fbd74fdd-a2f0-40b3-a369-32246d32de93'>Creative Commons</a></div>
+                <div className={style.caption}>"Photo - Pencil and Paper" by flakeparadigm is licensed under CC BY 2.0</div>
+                <div className={style.descTitle}>Project Description</div>
+                <p>
+                    My first deployed website. Built as a tool to reflect on the current days progress in learning to code.
+                </p>
+                
                 <div className={style.projectDesc}>
                     <div className={style.descTitle}>Key Skills Used/Learned</div>
                     <ul>
@@ -44,6 +70,10 @@ export default function PortfolioPage() {
                     <div className={style.title}>Etsy Inspired Showroom</div>
                     <img className={style.websiteImg} src={etsyStore} alt='' />
                 </a>
+                <div className={style.descTitle}>Project Description</div>
+                <p>
+                    Built for an old co-worker's side hustle business, "Print Future 3D". Website was built to act as a buisiness and product gallery.
+                </p>
                 <div className={style.projectDesc}>
                     <div className={style.descTitle}>Key Skills Used/Learned</div>
                     <ul>
@@ -58,35 +88,20 @@ export default function PortfolioPage() {
             <hr className={style.sectionBreak} />
 
             <div className={style.websiteElement}>
-                <a href=''>
-                    <div className={style.title}>Tada Meats</div>
-                    <img className={style.websiteImg} src={tadaMeats} alt='' />
-                </a>
-                <div className={style.projectDesc}>
-                    <div className={style.descTitle}>Key Skills Used/Learned</div>
-                    <ul>
-                        <li>Languages/Libraries: React, Material UI </li>
-                        <li>Database: PostgreSQL</li>
-                        <li>Development Tools: MVC Backend Model, MVP Project Development, Env variables, NPM, Git</li>
-                        <li>Deployment Tools: Heroku, Git</li>
-                    </ul>
-                </div>
-            </div>
-
-            <hr className={style.sectionBreak} />
-
-            <div className={style.websiteElement}>
                 <a href='https://repl.it/@TravisFrazier1/RideTheBus#main.py'>
-                    <div className={style.title}>Tada Meats</div>
-                    <img className={style.websiteImg} src={tadaMeats} alt='' />
+                    <div className={style.title}>Card Game Modeling</div>
+                    <img className={style.websiteImg} src={deckOfCards} alt='' />
                 </a>
+                <div className={style.descTitle}>Project Description</div>
+                <p>
+                    Not a website, but a card game modeling progam. Built after a few friends and I were debating the odds of passing each and all four levels of a card game.
+                </p>
+                <div className={style.caption}>"Deck of Cards" by LuluP is licensed under CC BY-NC-ND 2.0</div>
                 <div className={style.projectDesc}>
                     <div className={style.descTitle}>Key Skills Used/Learned</div>
                     <ul>
-                        <li>Languages/Libraries: React, Material UI </li>
-                        <li>Database: PostgreSQL</li>
-                        <li>Development Tools: MVC Backend Model, MVP Project Development, Env variables, NPM, Git</li>
-                        <li>Deployment Tools: Heroku, Git</li>
+                        <li>Languages/Libraries: Python </li>
+                        <li>Development Tools: ReplIt</li>
                     </ul>
                 </div>
             </div>

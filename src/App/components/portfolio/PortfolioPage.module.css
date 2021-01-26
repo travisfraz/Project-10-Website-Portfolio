@@ -18,13 +18,15 @@
 
 .websiteElement {
     padding: 40px 0 0 0;
-    transition: 0.5s;
     position: relative;
     width: 600px;
-    height: 600px;
 }
 
-    .websiteElement:hover {
+    .websiteElement img {
+        transition: 0.5s;
+    }
+
+    .websiteElement img:hover {
         opacity: 0.8;
     }    
 
