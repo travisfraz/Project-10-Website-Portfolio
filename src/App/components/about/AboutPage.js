@@ -43,7 +43,7 @@ export default function AboutPage() {
                 </p>
             </section>
 
-            <section>
+            {/*<section>
                 <h1>EXTRA - Keeping for reference</h1>
                 <p>For one, I love how there is a never ending amount of novelity.
                      In a modern world of constant routine, I look forward to having new experiences, and problems that keep me engaged.
@@ -52,7 +52,7 @@ export default function AboutPage() {
                      is a rather facinating industry. Facinating in that the industry is extremely valued in society, yet at the end of the day
                      the industry is simply moving, manipulating, and leverageing data.  Just a few millions and millions of on/off signals ran in
                      a controlled way has lead to improving people's lives by orders of magnitude.</p>
-            </section>
+            </section>*/}
         </div>
     )
 }
