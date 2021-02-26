@@ -14,7 +14,7 @@ export default function AboutPage() {
                      However, up until September 2020, I have never taken the initiative to prioritize learning the ins and outs
                      of how computers operate.  Fortunately, my wife and I found ourselves
                      wanting to move closer to her family in the Twin Cities.
-                     Seeing this as a great "now or never opportunity" I decided to commit myself full time to learning web development.
+                     Seeing this as a great "now or never opportunity" I decided to commit myself full time to learning software development.
                 </p>
                 <div className={style.column1Third}>
                     <img className={style.profilePic} src={ProfilePic} alt='' />

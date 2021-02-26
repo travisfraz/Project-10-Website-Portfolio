@@ -13,7 +13,7 @@ export default function PortfolioPage() {
             <section className={style.portfolioIntro}>
                 <p>
                     Below you will find some of the projects that I have created.
-                     Each project will list some of the key skills that I learned or used while developing, and a short description of the projects purpose.
+                     Each project will list the key skills that I utilized for development, and a short description of the projects purpose.
                 </p>
             </section>
 
@@ -27,14 +27,19 @@ export default function PortfolioPage() {
                 <div className={style.projectDesc}>
                     <div className={style.descTitle}>Project Description</div>
                     <p>This website was built for a local meat processor. They were in need of a website to showcase there business, allow for online retail sales, 
-                        and finalize custom processing orders.
+                        and finalize custom processing orders. I personally like this project because its is the project I have learned the most from pertaining to backend web development
+                    </p>
+                    <p>
+                        This project I really dove into the nitty gritty detailes of backend development. It consists of two seperate git repos. One for 
+                        the frontend, and one for a backend rest API. The REST API was originally hosted via Heroku, but due to some limitations I decided
+                        to migrate this over to AWS as an entirely serverless application.
                     </p>
                     <div className={style.descTitle}>Key Skills Used/Learned</div>
                     <ul>
                         <li>Languages/Libraries: React, Material UI </li>
-                        <li>Database: PostgreSQL</li>
+                        <li>Database: PostgreSQL/DynamoDB</li>
                         <li>Development Tools: MVC Backend Model, MVP Project Development, Env variables, NPM, Git</li>
-                        <li>Deployment Tools: Heroku, Git</li>
+                        <li>Deployment Tools: Heroku, AWS Lambda, Git</li>
                     </ul>
                 </div>
             </div>
@@ -50,6 +55,7 @@ export default function PortfolioPage() {
                 <div className={style.descTitle}>Project Description</div>
                 <p>
                     My first deployed website. Built as a tool to reflect on the current days progress in learning to code.
+                    I enjoy looking back at the architeture of this project vs that of my most recent projects. Some progress has been made! ;)
                 </p>
                 
                 <div className={style.projectDesc}>
@@ -92,11 +98,13 @@ export default function PortfolioPage() {
                     <div className={style.title}>Card Game Modeling</div>
                     <img className={style.websiteImg} src={deckOfCards} alt='' />
                 </a>
+                <div className={style.caption}>"Deck of Cards" by LuluP is licensed under CC BY-NC-ND 2.0</div>
                 <div className={style.descTitle}>Project Description</div>
                 <p>
                     Not a website, but a card game modeling progam. Built after a few friends and I were debating the odds of passing each and all four levels of a card game.
+                    Bonus points if you can name the odds without running the program!
                 </p>
-                <div className={style.caption}>"Deck of Cards" by LuluP is licensed under CC BY-NC-ND 2.0</div>
+                
                 <div className={style.projectDesc}>
                     <div className={style.descTitle}>Key Skills Used/Learned</div>
                     <ul>
