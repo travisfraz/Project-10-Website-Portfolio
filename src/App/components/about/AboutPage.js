@@ -9,7 +9,7 @@ export default function AboutPage() {
             <h1 className={style.aboutTitle}>Travis' Story</h1>
             <section className={style.splitSection}>
                 <p className={style.column2Third}>
-                    My name is Travis Frazier, and I am currently learning to become a backend web developer.
+                    My name is Travis Frazier, and I am currently learning to become a Software Developer.
                      I have always had an interest in computers and found them to be quite engaging to work with. 
                      However, up until September 2020, I have never taken the initiative to prioritize learning the ins and outs
                      of how computers operate.  Fortunately, my wife and I found ourselves
@@ -31,7 +31,7 @@ export default function AboutPage() {
             </section>
             <section>
                 <p>
-                    Looking towards the future, I can see a career in Backend Web Development being a rewarding occupation. I enjoy learning, being useful,
+                    Looking towards the future, I can see a career in Software Development being a rewarding occupation. I enjoy learning, being useful,
                      and building things that few other people have built.
                      Firstly, I pride myself in being able to master new skills. I can see this being a beneficial and well suited trait for an ever changing industry.
                      Secondly, an occupation in the web industry, and tech industry overall, has the opportunity to produce a HIGH degree of value. I want an occupation that contributes as much
